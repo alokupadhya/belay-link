@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/BelayLink/static/css/main.754ebb54.css",
-    "main.js": "/BelayLink/static/js/main.8d5a8f46.js",
-    "static/js/787.ef7ac989.chunk.js": "/BelayLink/static/js/787.ef7ac989.chunk.js",
-    "static/media/home-bg.png": "/BelayLink/static/media/home-bg.134e312d0e2fe1d4cc00.png",
-    "index.html": "/BelayLink/index.html",
-    "main.754ebb54.css.map": "/BelayLink/static/css/main.754ebb54.css.map",
-    "main.8d5a8f46.js.map": "/BelayLink/static/js/main.8d5a8f46.js.map",
-    "787.ef7ac989.chunk.js.map": "/BelayLink/static/js/787.ef7ac989.chunk.js.map"
+    "main.css": "/belay-link/static/css/main.754ebb54.css",
+    "main.js": "/belay-link/static/js/main.b67e26f3.js",
+    "static/js/787.ef7ac989.chunk.js": "/belay-link/static/js/787.ef7ac989.chunk.js",
+    "static/media/home-bg.png": "/belay-link/static/media/home-bg.134e312d0e2fe1d4cc00.png",
+    "index.html": "/belay-link/index.html",
+    "main.754ebb54.css.map": "/belay-link/static/css/main.754ebb54.css.map",
+    "main.b67e26f3.js.map": "/belay-link/static/js/main.b67e26f3.js.map",
+    "787.ef7ac989.chunk.js.map": "/belay-link/static/js/787.ef7ac989.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.754ebb54.css",
-    "static/js/main.8d5a8f46.js"
+    "static/js/main.b67e26f3.js"
   ]
 }
