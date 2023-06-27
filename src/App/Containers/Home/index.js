@@ -26,6 +26,7 @@ export default function Home() {
     [theme.breakpoints.up('sm')]: {
       padding: '20px 10px'
     },
+    background: '#73737340'
   }));
 
   const PaperContainer = styled(Paper)(({ theme }) => ({
@@ -39,8 +40,16 @@ export default function Home() {
     margin: "10px"
   }));
 
+  const ContainerHeading = styled(Typography)(({theme})=>({
+    color: "#18191F",
+    fontSize: '27px',
+    fontFamily: 'Montserrat',
+    fontWeight: '700',
+    lineHeight: '32px'
+  }))
+
   const ButtonBig = styled(Button)(({ theme }) => ({
-    padding: "10px 30px",
+    padding: "15px 30px 15px 30px",
     textAlign: 'center',
     color: theme.palette.text.secondary,
     display: "block",
@@ -51,10 +60,13 @@ export default function Home() {
   }));
 
   const ButtonText = styled(Typography)(({ theme }) => ({
-    fontWeight: "bolder",
-    color: 'black',
-    fontSize: "21px",
-    textTransform: "none"
+    color: '#202020',
+    textAlign: 'center',
+    fontSize: '21px',
+    fontFamily: 'Montserrat',
+    fontWeight: '700',
+    lineHeight: '28px',
+    textTransform: 'none' 
   }));
 
   return (
@@ -62,10 +74,10 @@ export default function Home() {
       <BoxOverlay>
         <Container sx={{mt:10}} >
           <PaperContainer>
-            <Typography variant='h4' mb={4} fontWeight={'bolder'} color={'black'}>
+            <ContainerHeading mb={5} mt={1}>
               Find people to do sports together
-            </Typography>
-            <Grid container spacing={2} >
+            </ContainerHeading>
+            <Grid container spacing={4} >
               <Grid item xs={12} sm={6} >
                 <ButtonBig sx={{backgroundColor:"#FFD465"}}>
                   <ButtonText>
@@ -75,11 +87,11 @@ export default function Home() {
                 </ButtonBig>
               </Grid>
               <Grid item xs={12} sm={6} >
-                <ButtonBig sx={{backgroundColor:"#00C6AE"}}>
+                <ButtonBig sx={{backgroundColor:"#61E4C5"}}>
                   <ButtonText>
                     Look around
                   </ButtonText>
-                  <img src={Images.home.lookAround} alt={'Look Around'} style={{marginTop: "8px", marginBottom: "2px"}}/>
+                  <img src={Images.home.lookAround} alt={'Look Around'} style={{marginTop: "2px"}}/>
                 </ButtonBig>
               </Grid>
             </Grid>
