@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.5210eb95.css","mappings":"mHAEA,KAGI,kBAAmB,CAFnB,QAAW,CACX,SAEJ","sources":["style.css"],"sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;900&display=swap');\r\n\r\nbody{\r\n    margin: 0px;\r\n    padding: 0px;\r\n    background: #1a160a;\r\n}"],"names":[],"sourceRoot":""}
